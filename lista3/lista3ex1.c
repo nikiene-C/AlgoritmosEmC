@@ -1,3 +1,6 @@
+//1 - Escreva um programa que solicita um número inteiro. Exiba uma mensagem de erro se o número informado estiver entre 15 e 25 ou entre 45 e 50 (inclusive).
+//1 e meio - Escreva um programa solicita um numero que exibe a mensagem "SENAC" se este número for 13, 26, 42 ou 70.
+
 #include <stdio.h>
 
 int main(void) {

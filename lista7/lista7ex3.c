@@ -10,17 +10,13 @@ int main(void){
         printf("Digite um número inteiro: ");
         scanf("%d", &numeroUsuario);
         
-    	if (cont == 1){
+    	if (cont == 0){
             maiorValorDigitado = numeroUsuario;
             menorValorDigitado = numeroUsuario;
-        } else if (numeroUsuario > maiorValorDigitado){
-            if (numeroUsuario != 0){
-                maiorValorDigitado = numeroUsuario;
-            }
-        } else if (numeroUsuario < menorValorDigitado){
-            if (numeroUsuario != 0){
+        } if (numeroUsuario > maiorValorDigitado && numeroUsuario != 0){
+               maiorValorDigitado = numeroUsuario;
+        } if (numeroUsuario < menorValorDigitado && numeroUsuario != 0){
                menorValorDigitado = numeroUsuario;
-            }
         }
 
         cont++;
