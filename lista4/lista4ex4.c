@@ -21,7 +21,7 @@ int main(void){
     else if ((numero + parOuImpar) % 2 == 1 && parOuImpar == 1) {
         printf("Parabens!");
     } else {
-        printf("Voce perder.");
+        printf("Voce perdeu.");
     }
     
 
