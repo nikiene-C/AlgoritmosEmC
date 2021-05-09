@@ -6,20 +6,22 @@
 
 int main(void){
 
-    int numeroSorteado;
+    int numeroSorteado, i;
 
     srand(time(NULL)); 
 
-    for (int cont = 1; cont <= 10; cont++)
+    do
     {
         numeroSorteado = rand() % 100 + 1;
         if (numeroSorteado % 2 == 0)
         {
             printf("o numero sorteado foi %d.\n", numeroSorteado);
-        } else {
-            cont--;
+            i++;
         }
-    }
+        
+    } while (i < 10);
+        
+    
     
     return 0;
 }
